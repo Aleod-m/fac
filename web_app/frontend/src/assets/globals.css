@@ -1,0 +1,27 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Color pallette */
+:root {
+    --fg: #bad8e7;
+    --bg: #042e43;
+    --light: #8ecae6;
+    --normal: #3b95ac;
+    --dark: #15455e;
+    --accent-light: #ffb703;
+    --accent-dark: #fb8500;
+}
+
+body {
+    font-family: Abel, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg);
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: inherit;
+    color: var(--fg);
+}
